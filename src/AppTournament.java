@@ -1,5 +1,8 @@
+import java.lang.reflect.Method;
 
-public class AppTournament {
+import controllers.TournamentController;
+
+public class AppTournament { //b
 
         public static Tournament[] getTournaments() {
                 // Copa Andina = 45
@@ -139,6 +142,8 @@ public class AppTournament {
                  * Aquí debe estar el código para ejecutar la aplicación, utilizando el
                  * TournamentController para mostrar los resultados de cada torneo.
                  */
-
+                Method method=TournamentController.class.getMethod(){
+                        
+                }
         }
 }
